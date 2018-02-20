@@ -1,0 +1,15 @@
+﻿<Window x:Class="eLED_PC_Console.PartyModeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eLED_PC_Console"
+        mc:Ignorable="d"
+        Title="PartyModeWindow" Height="150" Width="250" ShowInTaskbar="False" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="CenterOwner">
+    <UniformGrid Rows="2" Columns="2">
+        <Button x:Name="Rainbow" Margin="20, 10, 10, 10" Click="Mode_Click">Rainbow</Button>
+        <Button x:Name="Cycle" Margin="10, 10, 20, 10" Click="Mode_Click">Cycle</Button>
+        <Button x:Name="Pulse" Margin="20, 10, 10, 10" Click="Mode_Click">Pulse</Button>
+        <Button x:Name="Crazy" Margin="10, 10, 20, 10" Click="Mode_Click">Crazy</Button>
+    </UniformGrid>
+</Window>
